@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Inter", sans-serif;
+}
+header {
+	background-color: #f55a5a;
+	width: 100%;
+	padding: 20px 0;
+}
+
+header .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+header > .logo > .logo-text {
+	color: #ffffff;
+	font-weight: 500;
+	letter-spacing: -0.075em;
+}
+
+header > .logo > .logo-image {
+	align-self: center;
+	width: 30px;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 50px;
+}
+
+
+.content-container > .content-item {
+	display: flex;
+	max-width: 50%;
+}
+
+.content-container > .content-item > .image > img {
+	height: 336px;
+	width: 290px;
+	border-radius: 10px;
+}
+
+.content-container > .content-item > .info {
+	margin: auto 0 auto 30px;
+  width: 100%;
+}
+
+.content-container > .content-item > .info > .top {
+	display: flex;
+	place-items: center;
+	gap: 20px;
+}
+
+.content-container > .content-item > .info > .top > .location {
+	display: flex;
+	gap: 7px;
+}
+
+.content-container > .content-item > .info > .top > .location > img {
+	align-self: center;
+	width: 12px;
+}
+
+.content-container > .content-item > .info > .top > .location > h2 {
+	font-weight: 400;
+	letter-spacing: 0.17em;
+}
+
+.content-container > .content-item > .info > .top > .google-maps > a {
+	color: #918e9b;
+	font-weight: 400;
+}
+
+.content-container > .content-item > .info > .middle {
+	margin: 10px 0 25px 0;
+}
+
+.ontent-container > .content-item > .info > .bottom {
+	font-weight: 700;
+}
+
+.content-container > .content-item > .info > .bottom > h5 {
+  color: #2B283A;
+}
+
+.content-container > .content-item > .info > .bottom > p {
+	margin-top: 20px;
+	font-weight: 400;
+}
